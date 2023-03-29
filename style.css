@@ -227,3 +227,34 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width:425px) {
+  .header {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+
+    display: block;
+  }
+
+
+
+}
